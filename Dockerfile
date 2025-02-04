@@ -9,6 +9,10 @@ RUN apt-get update \
     tini \
     openssl \
     ca-certificates \
+    git \
+    python3 \
+    build-essential \
+    gcc \
     && apt-get autoclean \
     && apt-get autoremove \
     && rm -rf /var/lib/apt/lists/*
